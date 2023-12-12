@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main</title>
+</head>
+<style>
+
+  body{
+    background-image: linear-gradient(to right, darkred, red) ;
+ margin: 0px;
+ padding:0px;
+ height:100vh;
+  width: 100vw ;
+  }
+.bt1,.bt{
+  background:transparent;
+ border:none;
+ color: white;
+}
+.bt{
+  top: 25px;
+  position: absolute;
+  
+}
+p{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: black;
+}
+  img{
+    width: 45px;
+    
+  }
+ .img1{
+   width:45px;
+ }
+ .header{
+    display: flex;
+    height:4em;
+    top: 0px;
+    box-shadow: 1px 1px 4px black;
+    justify-content: space-between;
+    padding:0 5%;
+background-color: #4B0082;
+   
+    
+  }
+ .menus{
+   z-index: 2;
+ }
+ .menus{
+   top: 0px;
+   
+   position:absolute;
+   padding: 40% 20%;
+   display: flex;
+   flex-direction: column;
+  height: 100vh;
+   background-color: rgba(63,23,98,0.98 ) ;
+   align-items: center;
+   height: 100%;
+   width: 35vw;
+   margin-left:-100vw;
+   row-gap: 1em;
+   transition:1s;
+   animation-name:entraresair;
+   animation-duration:1s;
+ }
+.music{
+  
+}
+ 
+ @keyframes entraresair{
+   from{
+     margin-left: -100vw;
+   }
+   top{
+     margin-left:-10vw;
+   }
+ }
+#bt2, #bt3, #bt4{
+  
+ padding: 8px;
+ width: 90%;
+ height:50px;
+ transition: 1s;
+ background-color: greenyellow;
+ border-radius: 5px;
+ text-align: center;
+ 
+}
+#bt3, #bt4{
+  display: none;
+}
+.logo{
+  background-color: darkred;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 70px;
+  border-radius:50%;
+  height:50px;
+  text-align: center;
+  transition: 1s;
+  box-shadow:1px 1px 4px lightgrey;
+ display: none;
+}
+.sp1{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: greenyellow;
+}
+.content{
+  height :100vh;
+}
+#all{
+  display: none;
+  
+}
+h3{
+ color: white;
+ margin-top: -30px;
+ text-align: center;
+}
+.menu1{
+  
+  background-color:rgba(0,0,0,0.8 );
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 90px;
+  border-radius: 10px;
+  height:25%;
+  width: 25%;
+  transition: 1s;
+ display: none;
+ 
+}
+#facil, #medio, #dificil{
+  padding: 8px;
+  border: none;
+  width: 90px;
+  background-color: red;
+  color: greenyellow;
+  text-align: center;
+  border-radius:5px;
+  color: white;
+  
+}
+.box3,.box4,.box5,.box6,.box7,.box8,.box9,.mae{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  background-color: darkred;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+  
+}
+.box2{
+  animation: movimento 5s ;
+  
+  transition:1s;
+}
+.box3{
+  animation: movimento 13s ;
+ 
+  transition: 1s;
+}
+.box4{
+ 
+  animation:movimento3 15s ; 
+  transition: 1s;
+}
+.box5{
+  animation:movimento4 26s ;
+  transitio 1s;
+}
+.box6{
+  animation:movimento4 20s ;
+  transition: 1s;
+}
+.box7{
+  animation:movimento4 11s ;
+  transition: 1s;
+}
+.box8{
+  animation:movimento4 9s ;
+  transition: 1s;
+}
+.box9{
+  animation: movimento 12s ;
+  transition:1s;
+}
+#logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.lg1,.lg2{
+  font-size: 40px;
+  text-align: center ;
+}
+.lg2,.lg{
+  font-weight: bold;
+  color: yellow
+}
+.lg1{
+  font-size: 50px;
+}
+#conteudo{
+  
+  
+}
+
+@keyframes movimento{
+  0%{
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:lightblue;
+    color:white;
+  }
+  10%{
+    top: 80%;
+    left:10%;
+    
+    background-color:green;
+    color:white;
+  }
+  20%{
+    top: 67%;
+    left:10%;
+    
+    background-color:blueviolet;
+    color:greenyellow;
+  }
+  30%{
+    top: 78%;
+    left:80%;
+    
+    background-color:green;
+    color:blue;
+  }
+  40%{
+    top: 18%;
+    left:18%;
+    background-color:blue;
+    color:white;
+  }
+  50%{
+    top: 90%;
+    left:50%;
+    background-color:black;
+    color:white;
+  }
+  60%{
+     top: 18%;
+     left:70%;
+     background-color:cyan;
+     color:chocolate;
+  }
+  70%{
+     top: 40%;
+     left:60%;
+
+     background-color:yellow;
+     color:white;
+  }
+  80%{
+     top: 80%;
+     left:69%;
+     background-color:pink;
+     color:yellow ;
+  }
+  90%{
+     top: 18%;
+     left:18%;
+     
+     background-color:darkgrey;
+     color:blue;
+  }
+  100%{
+   top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+}
+
+@keyframes movimento2{
+  0%{
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+  10%{
+    top: 80%;
+    left:18%;
+    
+    background-color:blue;
+    color:white;
+  }
+  20%{
+    top: 60%;
+    left:80%;
+    
+    background-color:blueviolet;
+    color:greenyellow;
+  }
+  30%{
+    top: 80%;
+    left:70%;
+    
+    background-color:green;
+    color:blue;
+  }
+  40%{
+    top: 30%;
+    left:45%;
+    background-color:blue;
+    color:white;
+  }
+  50%{
+    top: 70%;
+    left:50%;
+    background-color:black;
+    color:white;
+  }
+  60%{
+     top: 18%;
+     left:18%;
+     background-color:cyan;
+     color:chocolate;
+  }
+  70%{
+     top: 40%;
+     left:60%;
+
+     background-color:yellow;
+     color:white;
+  }
+  80%{
+     top: 80%;
+     left:69%;
+     background-color:pink;
+     color:yellow ;
+  }
+  90%{
+     top: 18%;
+     left:18%;
+     
+     background-color:darkgrey;
+     color:blue;
+  }
+  100%{
+   top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+}
+@keyframes movimento3{
+  0%{
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+  10%{
+    top: 80%;
+    left:80%;
+    
+    background-color:blueviolet;
+    color:white;
+  }
+  20%{
+    top: 60%;
+    left:18%;
+    
+    background-color:blueviolet;
+    color:greenyellow;
+  }
+  30%{
+    top: 18%;
+    left:80%;
+    
+    background-color:green;
+    color:blue;
+  }
+  40%{
+    top: 18%;
+    left:18%;
+    background-color:blue;
+    color:white;
+  }
+  50%{
+    top: 90%;
+    left:50%;
+    background-color:black;
+    color:white;
+  }
+  60%{
+     top: 78%;
+     left:18%;
+     background-color:cyan;
+     color:chocolate;
+  }
+  70%{
+     top: 40%;
+     left:60%;
+
+     background-color:yellow;
+     color:white;
+  }
+  80%{
+     top: 80%;
+     left:69%;
+     background-color:pink;
+     color:yellow ;
+  }
+  90%{
+     top: 18%;
+     left:18%;
+     
+     background-color:darkgrey;
+     color:blue;
+  }
+  100%{
+   top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+}
+@keyframes movimento4{
+  0%{
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+  10%{
+    top: 40%;
+    left:80%;
+    
+    background-color:blac;
+    color:white;
+  }
+  20%{
+    top: 60%;
+    left:18%;
+    
+    background-color:blueviolet;
+    color:greenyellow;
+  }
+  30%{
+    top: 18%;
+    left:80%;
+    
+    background-color:green;
+    color:blue;
+  }
+  40%{
+    top: 18%;
+    left:18%;
+    background-color:blue;
+    color:white;
+  }
+  50%{
+    top: 90%;
+    left:50%;
+    background-color:black;
+    color:white;
+  }
+  60%{
+     top: 18%;
+     left:70%;
+     background-color:cyan;
+     color:chocolate;
+  }
+  70%{
+     top: 40%;
+     left:60%;
+
+     background-color:yellow;
+     color:white;
+  }
+  80%{
+     top: 80%;
+     left:69%;
+     background-color:pink;
+     color:yellow ;
+  }
+  90%{
+     top: 18%;
+     left:18%;
+     
+     background-color:darkgrey;
+     color:blue;
+  }
+  100%{
+   top: 50%;
+    left: 50%;
+    transform:translate(-50%;-50%);
+    background-color:red;
+    color:white;
+  }
+}
+.missao{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  background-color: white;
+  padding: 20%;
+  width: 30%;
+  border-radius:10px;
+  display: none;
+}
+.music{
+  background-color: rgba(0,0,0,0.8 );
+  border-radius:8px;
+ padding: 20px;
+width: 100%;
+}
+h4{
+  color:white ;
+}
+#m1, #m2, #m3{
+  background-color: red;
+  padding:8px;
+  border-radius:5px;
+  color: white;
+  text-align: center;
+  
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+  
+  
+</style>
+
+<body id="body" >
+  <div id="logo">
+    <p class="lg1">🤓</p><br>
+   <p class="lg2">D.A.C </p>
+  </div>
+ <div class="menu1" id="menu1">
+    <h3>Níveis</h3><br>
+    
+    <input type="button" id="facil"  class="nivel" onclick="nivelfacil()" value="Fácil"><br><br>
+    
+    <input type="button" id="medio"  class="nivel" value="Médio" onclick="nivelmedio()"><br><br>
+    
+    <input type="button" id="dificil"  class="nivel" value="Difícil" onclick="niveldificil()"><br><br>
+    
+  </div>
+ 
+ <div id="all">
+   <div class="header" id="header">
+ 
+   <button class="bt1" onclick="mostrar()"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+    </svg></button>
+   
+   
+   <p class="lg"><i>D.A.C.</i></p>
+   
+   <div class="menus" id="menus">
+     <button class="bt" onclick="tirar()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+         <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+         <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+       </svg></button>
+     <img src="/4886109.png" alt="perfil"><a href="página principal.html">Home</a>
+     
+     <img class="img1" src="/OPI/7469352.png" alt="pontos"><p id="dac"></p>
+     
+     <img src="/4526821.png" alt="nivel"><a href="/Logins.html">Sobre nós</a><br>
+     <div class="music" id="music">
+       <h4>músicas</h4>
+       <div id="mu1"  onclick="m1()">
+         <p id="m1">
+           Tiesto
+         </p>
+       </div>
+       <div>
+         <p id="m2">Usher</p>
+       </div>
+       <div>
+         <p id="m3">Justin</p>
+       </div>
+     </div>
+    
+   </div>
+ 
+<div id="conteudo" onclick="tirar()">
+ <dip class="missao" id="missao">
+   <p id="enu">Teste1: Click nos nomes dos verdadeiros membros da O.P.I a tempo!⏳ </p><br>
+   <button type="submit" id="bt2" onclick="jogarfacil() ">jogar</button>
+   
+   <button type="submit" id="bt3" onclick="jogarmedio()">jogar</button>
+   
+   <button type="submit" id="bt4" onclick="jogardificil()">jogar</button>
+ </div>
+
+ 
+
+  
+<div id="dives">
+  <div class="box9" id="box9" onclick="verificar7()" >
+    <p id="box9">Dorivaldo</p>
+  </div>
+ <div class="box3" id="box3" onclick="verificar1() ">
+   <p id="sp3">Abel</p>
+ </div>
+ <div class="box4" id="box4" onclick="verificar2()">
+   <p id="sp4">Edilson</p>
+ </div>
+ <div class="box5" id="box5" onclick="verificar3() ">
+   <p id="sp5">Elson</p>
+ </div>
+  <div class="box6" id="box6" onclick="verificar4()">
+    <p id="sp6">Ladislau</p>
+  </div>
+  <div class="box7" id="box7" onclick="verificar5()">
+    <p id="sp7">Marcos</p>
+  </div>
+  <div class="box8" id="box8" onclick="verificar6()">
+    <p id="sp8">Nunes</p>
+  </div>
+   <div class="mae" id="mae" onclick="jogardenovo() ">
+    <p id="mae">membros O.P.I</p>
+  </div>
+ 
+
+</div>
+ </div>
+ </div>
+ 
+
+</body>
+
+<script>
+  
+  const navegacao = document.getElementById("menus")
+  
+  const body = document.getElementById("body")
+  
+  const estado = false;
+  
+  const caixas = document.getElementById("dives");
+  
+  const mae = document.getElementById("mae")
+  
+  const box3 = document.getElementById("sp3")
+  
+  const box4 = document.getElementById("sp4")
+  
+  const box5 = document.getElementById("sp5")
+  
+  const box6 = document.getElementById("sp6")
+  
+  const box7 = document.getElementById("sp7")
+  
+  const box8 = document.getElementById("sp8")
+  
+  const box9 = document.getElementById("sp9")
+  
+  const ponto = document.getElementById("dac")
+  
+  const conteudo = document.getElementById("conteudo")
+  
+  
+  
+  function mostrar(){
+     estado != estado;
+     
+     if(estado)
+     {
+       navegacao.style.marginLeft="-100vw";
+       navegacao.style.animationName="entraresair";
+       
+       
+       
+     }else{
+       navegacao.style.marginLeft="-10vw";
+       navegacao.style.animationName="";
+       body.style.filter="";
+       
+       
+
+       
+     }
+    
+  }
+  function tirar(){
+     estado != estado;
+     
+     if(estado)
+     {
+       navegacao.style.marginLeft="-10vw";
+       navegacao.style.animationName="";
+       body.style.filter="";
+
+       
+       
+       
+       
+     }else{
+       navegacao.style.marginLeft="-100vw";
+       navegacao.style.animationName="entraresair";
+
+       
+       
+     }
+    
+  }
+  function nivelfacil(){
+    
+    const missao = document.getElementById("missao")
+     const all = document.getElementById("all")
+     const menu = document.getElementById("menu1")
+     
+     missao.style.display="block";
+     caixas.style.display="none"
+     all.style.display="block";
+    menu.style.display="none"
+    missao.style.display="block"
+    
+    
+
+    
+    
+    
+    
+    
+     
+  }
+  function nivelmedio(){
+    const missao = document.getElementById("missao")
+    const all = document.getElementById("all")
+     const menu = document.getElementById("menu1")
+     const enunciado = document.getElementById("enu")
+     
+     //Variaveis dos butões
+     const bt2 = document.getElementById("bt2")
+     const bt3 = document.getElementById("bt3")
+     const bt4 = document.getElementById("bt4")
+     
+     
+     missao.style.display="block";
+     caixas.style.display="none"
+     all.style.display="block";
+    menu.style.display="none"
+    
+    enunciado.innerText="Teste2: Dê um duplo click nos nomes semelhantes a estes: \n \n \"Dorivaldo\" \n  \" Ladislau \" \n \"Marcos\" \n \"Edilson\" " 
+    
+    enunciado.style.marginTop="-50%"
+    bt2.style.display="none"
+    bt3.style.display="block"
+    
+    
+    
+  }
+  const b3 = document.getElementById("box3")
+  
+  const b4 = document.getElementById("box4")
+  
+  const b5 = document.getElementById("box5")
+  
+  const b6 = document.getElementById("box6")
+  
+  const b7 = document.getElementById("box7")
+  
+  const b8 = document.getElementById("box8")
+  
+  const b9 = document.getElementById("box9")
+  
+  function jogarmedio(){
+    
+  caixas.style.display = "block"
+  const missao = document.getElementById("missao")
+  
+  missao.style.display = "none"
+  
+  
+  box3.style.backgroundColor=""
+  box3.innerText="Abel"
+  
+  box4.style.backgroundColor="" 
+  box4.innerText="Odlavirod"
+  
+  box5.style.backgroundColor="" 
+  box5.innerText="Nosle"
+  box6.style.backgroundColor="" 
+  
+  box6.innerText="Ualsidal"
+  
+  box7.style.backgroundColor="" 
+  box7.innerText="Socram"
+  
+  box8.style.backgroundColor="" 
+  box8.innerText="Senun"
+  
+  
+  
+  
+  
+  box9.innerText="Odlavirod"
+  
+  
+  
+  
+  }
+  
+  function jogardificil(){
+    caixas.style.display = "block"
+  const missao = document.getElementById("missao")
+  
+  missao.style.display = "none"
+  
+  
+  b3.style.backgroundColor="white"
+  box3.innerText="Abel"
+  
+  b3.style.animation="movimento 1s"
+  
+  
+  box4.style.backgroundColor="" 
+  box4.innerText="Odlavirod"
+  box4.style.animation="movimento3 9s"
+  
+  box5.style.backgroundColor="" 
+  box5.innerText="Nosle"
+  box5.style.animation="movimento4 4s"
+  
+  box6.style.backgroundColor="" 
+  box6.innerText="Ualsidal"
+  box6.style.animation="movimento4 7s"
+  
+  
+  box7.style.backgroundColor="" 
+  box7.innerText="Socram"
+  box7.style.animation="movimento4 13s"
+  
+  box8.style.backgroundColor="" 
+  box8.innerText="Senun"
+  b8.style.animation="movimento4 2s"
+  
+  
+  
+  
+  
+  box9.innerText="Odlavirod"
+  
+  }
+  
+  function niveldificil(){
+    const missao = document.getElementById("missao")
+    const all = document.getElementById("all")
+     const menu = document.getElementById("menu1")
+     const enunciado = document.getElementById("enu")
+     
+     //Variaveis dos butões
+     const bt2 = document.getElementById("bt2")
+     const bt3 = document.getElementById("bt3")
+     const bt4 = document.getElementById("bt4")
+     
+     
+     missao.style.display="block";
+     caixas.style.display="none"
+     all.style.display="block";
+    menu.style.display="none"
+    
+    enunciado.innerText="Teste3: Dê um  click nos nomes semelhantes a estes: \n \n \"Dorivaldo\" \n  \" Ladislau \" \n \"Marcos\" \n \"Edilson\" \n \n só que mais rapidamente! ⏳" 
+    
+    enunciado.style.marginTop="-50%"
+    bt2.style.display="none"
+    bt3.style.display="block"
+    
+  }
+  
+  function jogarfacil(){
+    caixas.style.display="block"
+    const missao = document.getElementById("missao")
+    
+    missao.style.display="none"
+    
+  
+  
+  box3.style.animationDuration=" 8s"
+  
+  
+  
+  box4.style.animationDuration=" 11s"
+  
+  
+  box5.style.animationDuration="14s"
+  
+  
+  box6.style.animationDuration="9s"
+  
+  
+  
+  box7.style.animationDuration="10s"
+  
+  
+  box8.style.animationDuration=" 19s"
+    
+  } 
+  function verificar1(){
+    
+    if(box3.value != "Dorivaldo" || box3.value != "Edilson" || box3.value != "Ladislau" || box3.value != "Marcos"){
+      
+      box3.innerText="Errado"
+      box3.style.color="red"
+      ponto.innerText="0 dac"
+    }else{
+      box3.innerText="Correto"
+      box3.style.backgroundColor="greenyellow"
+      ponto.innerText="2 dac"
+      
+   
+    }
+    
+    
+  }
+  function verificar2() {
+  
+    if (box4.value  == "Dorivaldo" || box4.value == "Edilson" || box4.value == "Ladislau" || box4.value == "Marcos") {
+     
+      box4.innerText="Errado"
+      box4.style.color="red"
+      ponto.innerText="2 dac"
+    } else {
+      box4.innerText="Correto"
+      box4.style.color="greenyellow "
+      ponto.innerText="4 dac"
+   
+    }
+  
+  
+  }
+  function verificar3() {
+  
+    if (box5.value!= "Dorivaldo" || box5.value != "Edilson" || box5.value != "Ladislau" || box5.value != "Marcos") {
+      
+      box5.innerText="Errado"
+      box5.style.color="red"
+      ponto.innerText="2 dac"
+    } else {
+      box5.innerText="Correto"
+      box5.style.color="greenyellow "
+      ponto.innerText="8 dac"
+    }
+  
+  
+  }
+  function verificar4() {
+  
+    if (box6.value == "Dorivaldo" || box6.value == "Edilson" || box6.value == "Ladislau" || box6.value == "Marcos") {
+      
+      box6.innerText="Errado"
+      box6.style.color="red"
+      ponto.innerText="4 dac"
+    } else {
+      box6.innerText= "Correto"
+      box6.style.color="greenyellow "
+      ponto.innerText="6 dac"
+    }
+  
+  
+  }
+  function verificar5() {
+  
+    if (box7.value == "Dorivaldo" || box7.value == "Edilson" || box7.value == "Ladislau" || box7.value == "Marcos") {
+      
+      box7.innerText="Errado";
+      box7.style.color="red"
+      ponto.innerText="4 dac"
+    } else {
+      box7.innerText="Correto"
+      box7.style.color="greenyellow "
+      ponto.innerText="12 dac"
+    }
+  
+  
+  }
+  function verificar6() {
+  
+    if (box8.value != "Dorivaldo" || box8.value != "Edilson" || box8.value != "Ladislau" || box8.value != "Marcos") {
+      
+      box8.innerText = "Errado";
+      box8.style.color="red"
+      ponto.innerText="8 dac"
+  
+    } else {
+      box8.innerText = "Correto";
+      box8.style.color="greenyellow "
+      ponto.innerText="32 dac"
+    }
+  
+  
+  }
+  function verificar7() {
+  
+    if (box9.value == "Dorivaldo" || box9.value == "Edilson" || box9.value == "Ladislau" || box9.value == "Marcos") {
+      
+      box9.innerText= "Errado";
+      box9.style.color="red"
+      ponto.innerText="32 dac"
+    } else {
+      box9.innerText = "Correto";
+      box9.style.color="greenyellow "
+      ponto.innerText="64 dac"
+      
+    }
+    
+  
+  
+  }
+  function m1(){
+      const m1 = document.getElementById("m1")
+      const mu1 = document.getElementById("mu1")
+      
+      const au = document.createElement("audio")
+      
+      mu1.appendChild("audio")
+      
+  }
+  setTimeout(() => {
+   const menu = document.getElementById("menu1")
+   const logo = document.getElementById("logo")
+   menu.style.display="block";
+   logo.style.display="none"
+   
+ 
+  }, 2000)
+  
+  
+  
+  
+</script>
+
+</html>
